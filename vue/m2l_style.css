@@ -1,0 +1,255 @@
+body
+{
+    margin: 0px;
+    padding:0px;
+    background-color: #FFFAF0;
+    font-family: arial;
+    color: #0066FF;
+}
+nav{
+    width: 100%;
+    background-color: #0066FF;
+}
+#menu::before{
+    content:"M2L";
+    font-size: 30px;
+    color :white;
+    position:absolute;
+    left:40px;
+}
+nav > ul
+{
+    margin: 0px;
+    padding:0px;
+}
+nav > ul > li
+{
+    float: left;
+    position: relative;
+    left: 36%;
+}
+nav > ul::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+
+nav > ul > li > a{
+    padding: 30px 30px;
+    color:white;
+}
+nav > ul > li > a:hover{
+    color:black;
+}
+nav li
+{
+    list-style-type: none;
+}
+.deroulant{
+    display: none;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+nav li:hover .deroulant{
+    display: block;
+    position: absolute;
+    top:100%;
+    left:0px;
+    padding:0px;
+}
+.deroulant li{
+    border-bottom:1px solid red;
+}
+.deroulant li a{
+    padding:15px 30px ;
+    font-size:13px;
+    color: white;
+}
+.deroulant a:hover{
+    color:black;
+}
+.deroulant li {
+    background-color:#0066FF;
+    
+}
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0066FF;
+}
+#footer
+{
+    background-color:#FFFAF0;
+    width:100% ;
+    border-top: 1px solid #0066FF ;
+    position: fixed;
+    bottom:0;
+    font-size: 11px;  
+    text-align: center;
+}
+#footer a
+{
+    text-decoration: none;
+    
+}
+#footer a:hover
+{
+    text-decoration:underline;
+}
+#footer a:visited
+{
+    color:#0066FF; 
+}
+.form_i
+{
+    border: 3px double black;
+    border-radius: 3px;
+    width: 60%;
+    height: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px 0px 20px 0px;
+    color: #0066FF;
+    margin: 40px;
+}
+.form_i label
+{
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+}
+.form_i input
+{
+    border:3px double black;
+    border-radius: 1px;
+    width: 30%;
+    height: 30%;
+}
+.form_c
+{
+    border: 3px double black;
+    border-radius: 3px;
+    width: 60%;
+    height: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px 0px 20px 0px;
+    color: #0066FF;
+}
+.form_c label
+{
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+}
+.form_c input
+{
+    border:3px double black;
+    border-radius: 1px;
+    width: 30%;
+    height: 30%;
+}
+.form_s
+{
+    border: 3px double black;
+    border-radius: 3px;
+    width: 40%;
+    height: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px 0px 20px 0px;
+    color: #0066FF;
+}
+.form_s label
+{
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+}
+.form_s input
+{
+    border:3px double black;
+    border-radius: 1px;
+    width: 30%;
+    height: 20%;
+}
+.form_conf
+{
+    border: 3px double black;
+    border-radius: 3px;
+    width: 50%;
+    height: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px 0px 20px 0px;
+    color: #0066FF;
+}
+.form_conf label
+{
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+.form_conf input
+{
+    border:3px double black;
+    border-radius: 1px;
+    width: 30%;
+    height: 20%;
+}
+.salle_select
+{
+    margin-top: 5%;
+    padding-left:0% ;
+    font-family: arial;
+    color: #0066ff;
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    color:#0066FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+center p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0066FF;
+}
+center a:visited
+{
+    color: #0066FF;
+}
+center a:hover
+{
+    color:black;
+}
+.mess_alert
+{
+    color:red;
+    font-weight: bold;
+}
+.reser_acc
+{
+    color: #0066FF;
+
+}
+.option_select
+{
+    width: 20%;
+}
+option
+{
+    width: 40%;
+    height:70%;
+    display: inline-block;
+}
+.button1{
+    color:#0066FF;
+    width:20%;
+    height:5%;
+    position: absolute;
+    top: 70%;
+    left:40%;
+}
+.compte
+{
+    text-align: center;
+}
